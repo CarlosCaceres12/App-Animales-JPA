@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion de Gatos</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1>Gestión de Gatos 🐈</h1>
+
+    <hr>
+    <section id="crear-gato">
+        <h2>Crear nuevo Gato</h2>
+        <form id="form-crear">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" required>
+            <br><br>
+            <label for="patas">Número de patas:</label>
+            <input type="number" name="patas" id="patas">
+
+            <button type="submit">Crear Gato</button>
+        </form>
+    </section>
+
+    <br><br>
+
+    <hr>
+
+    <section id="lista-gatos">
+        <h2>Lista de Gatos</h2>
+        <button id="btn-cargar-gatos">Cargar todos</button>
+        <ul id="gatos-list"></ul>
+    </section>
+
+    <br><br>
+    <hr>
+</body>
+</html>
